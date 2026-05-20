@@ -1,5 +1,6 @@
 import { whatsappUrl } from "@/data/site";
 import Image from "next/image";
+import Link from "next/link";
 
 const navItems = [
   { label: "Servicos", href: "#servicos" },
@@ -12,17 +13,16 @@ export function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/15 bg-[#2b1a10]/75 text-stone-50 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
-        <a
-          href="/Hero.tsx"
-          className="font-serif text-2xl font-black tracking-wide">
+         <Link href="/" className="font-serif text-2xl font-black tracking-wide">
           <Image
             src="/images/Logo-nairopecuaria.png"
-            alt=""
+            alt="Nairo Pecuária - Voltar para página inicial"
             width={100}
             height={100}
-            className=""
+            className="cursor-pointer" // Adiciona cursor de mão
+            priority // Prioriza o carregamento do logo
           />
-        </a>
+        </Link>
         <nav className="hidden items-center gap-8 text-sm font-bold uppercase tracking-[0.18em] text-stone-200 md:flex">
           {navItems.map((item) => (
             <a
