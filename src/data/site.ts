@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 export const whatsappUrl =
   "https://wa.me/244948824502?text=Ola%2C%20Nairopecuaria.%20Tenho%20interesse%20em%20reservar%20um%20animal.";
@@ -8,28 +8,73 @@ export const services = [
     title: "Venda de animais",
     description:
       "Selecionamos bovinos, caprinos e ovinos com boa condicao corporal, historico de manejo e orientacao para transporte.",
-    image:
-      "/img/gado.jpg",
+    image: "/img/gado.jpg",
   },
   {
     title: "Consultoria pecuaria",
     description:
       "Apoiamos produtores na escolha de racas, alimentacao, organizacao do curral e melhoria da produtividade do rebanho.",
-    image:
-      "/img/consultoria.jpg",
+    image: "/img/consultoria.jpg",
   },
   {
     title: "Cuidado e manejo",
     description:
       "Acompanhamos rotinas de higiene, nutricao, pesagem, observacao sanitaria e preparacao dos animais para venda.",
-    image:
-      "/img/veterinario.jpg",
+    image: "/img/veterinario.jpg",
   },
 ];
 
+export const products = [
+  {
+    id: 1,
+    name: "Ovos Frescos",
+    category: "Produtos Frescos",
+    price: "6500kz",
+    unit: "Cartela",
+    quantity: "30 unidades",
+    stock: 120,
+    location: "Luanda, Angola",
+    seller: "Fazenda Nairo",
+    description:
+      "Ovos frescos de galinhas poedeiras criadas de forma natural.",
+    image:
+      "/img/ovos-frescos.jfif",
+  },
+
+  {
+    id: 3,
+    name: "Tomate",
+    category: "Hortaliças",
+    price: "10.000kz",
+    unit: "Saco",
+    quantity: "25kg",
+    stock: 5,
+    location: "Luanda, Angola",
+    seller: "Fazenda Nairo",
+    description:
+      "Tomate fresco colhido diretamente do campo, excelente qualidade.",
+    image:
+      "/img/Tomate.jfif", 
+  },
+   {
+    id: 2,
+    name: "Cebola Roxa",
+    category: "Hortaliças",
+    price: 18000,
+    unit: "Saco",
+    quantity: "25kg",
+    stock: 15,
+    location: "Luanda, Angola",
+    seller: "Fazenda Nairo",
+    description:
+      "Cebola fresca colhida diretamente do campo, excelente qualidade.",
+    image:
+      "/img/cebola-roxa.jfif",
+  },
+
+];
+
 export const animals = [
-
-
   {
     name: "Cabrito Dorper",
     category: "Caprino",
@@ -38,19 +83,17 @@ export const animals = [
     breed: "Dorper",
     age: "10 meses",
     purpose: "Corte e reproducao",
-    image:
-      "/img/ovelhas-dorper.jfif",
+    image: "/img/ovelhas-dorper.jfif",
   },
   {
-    name: "Carneiro Dorper",
-    category: "Caprino",
-    price: "800 mil – 2M Kz",
-    weight: "68 kg",
-    breed: "Santa Inês",
-    age: "18 meses",
-    purpose: "Corte e reproducao",
-    image:
-      "/img/ovelha-santa_Ines.jfif",
+    name: "Egg Queen",
+    category: "Avícola",
+    price: "8 mil – 35 mil Kz",
+    weight: "2kg",
+    breed: "ISA Brown",
+    age: "8 meses",
+    purpose: "Produção de Ovos",
+    image: "/images/Isa-BROWN.jfif",
   },
   {
     name: "Carneiro Merino",
@@ -60,32 +103,29 @@ export const animals = [
     breed: "Merino",
     age: "20 meses",
     purpose: "Carneiro Reprodutor",
-    image:
-      "/img/ovelha-merino.jfif",
+    image: "/img/ovelha-merino.jfif",
   },
   {
     name: "Porco Landrace",
     category: "Suino",
-    price: "40 mil – 120 mil Kz",
+    price: "40.000 – 120 mil Kz",
     weight: "54 kg",
     breed: "Landrace",
     age: " 10 meses",
     purpose: "Carne",
-    image:
-      "/img/landrace.jfif",
+    image: "/img/landrace.jfif",
   },
-   {
+  {
     name: "Porco Large-White",
     category: "Suino",
-    price: "300 mil – 1M Kz",
+    price: "300.000 – 1M Kz",
     weight: "54 kg",
     breed: "Saanen",
     age: "1 anos",
     purpose: "Carne",
-    image:
-      "/img/large-white.jfif",
+    image: "/img/large-white.jfif",
   },
-   {
+  {
     name: "Porco Duroc",
     category: "Suíno",
     price: "1.5M – 4M Kz",
@@ -93,77 +133,67 @@ export const animals = [
     breed: "Duroc",
     age: "2 anos",
     purpose: "Reprodutor",
-    image:
-      "/img/Duroc.jfif",
-  },
-   {
-    name: "Cabra Saanen",
-    category: "Caprino",
-    price: "210.000 Kz",
-    weight: "54 kg",
-    breed: "Saanen",
-    age: "2 anos",
-    purpose: "Producao de leite",
-    image:
-      "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=900&q=80",
+    image: "/img/Duroc.jfif",
   },
   {
-    name: "Cabra Saanen",
+    name: " coelho Nova Zelândia",
     category: "Caprino",
-    price: "210.000 Kz",
+    price: "40.000 – 120.000 Kz",
     weight: "54 kg",
     breed: "Saanen",
-    age: "2 anos",
-    purpose: "Producao de leite",
-    image:
-      "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=900&q=80",
-  },
-  
-  {
-    name: "Cabra Saanen",
-    category: "Caprino",
-    price: "210.000 Kz",
-    weight: "54 kg",
-    breed: "Saanen",
-    age: "2 anos",
-    purpose: "Producao de leite",
-    image:
-      "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=900&q=80",
+    age: "1 ano",
+    purpose: "Carne",
+    image: "/images/coelho-nova_zelandia.jfif",
   },
   {
-    name: "Cabra Saanen",
+    name: "Coelho Flemish",
     category: "Caprino",
-    price: "210.000 Kz",
+    price: "100.000 – 300.000 Kz",
     weight: "54 kg",
-    breed: "Saanen",
-    age: "2 anos",
-    purpose: "Producao de leite",
-    image:
-      "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=900&q=80",
+    breed: "Gigante Flemish",
+    age: "1 anos",
+    purpose: "Reprodução",
+    image: "/images/coelho-flemish.jfif",
   },
-  {
-    name: "Cabra Saanen",
-    category: "Caprino",
-    price: "210.000 Kz",
-    weight: "54 kg",
-    breed: "Saanen",
-    age: "2 anos",
-    purpose: "Producao de leite",
-    image:
-      "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=900&q=80",
-  },
-  {
-    name: "Cabra Saanen",
-    category: "Caprino",
-    price: "210.000 Kz",
-    weight: "54 kg",
-    breed: "Saanen",
-    age: "2 anos",
-    purpose: "Producao de leite",
-    image:
-      "https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=900&q=80",
-  },
-  
-  
 
+  {
+    name: "Thunder Bull",
+    category: "Bovino",
+    price: "5M – 15M Kz",
+    weight: "850kg",
+    breed: "Bonsmara",
+    age: "4 anos",
+    purpose: "Corte e Reprodução",
+    image: "/images/Bonsmara.jfif",
+  },
+  {
+   name: "Silver Feather",
+    category: "Avícola",
+    price: "700 – 2.500 Kz",
+    weight: "3.5kg",
+    breed: "Ross 308",
+    age: "45 dias",
+    purpose: "Frango de Corte",
+    image: "/images/Ross.jfif",
+  },
+  {
+    name: "Golden Milk",
+    category: "Bovino",
+    price: "2M – 6M Kz",
+    weight: "650kg",
+    breed: "Holandesa",
+    age: "5 anos",
+    purpose: "Produção de Leite",
+    image: "/images/holandesa.jfif",
+  },
+  {
+    name: "Fast Runner",
+    category: "Equino",
+    price: "550.000 kz",
+    weight: "500kg",
+    breed: "Árabe",
+    age: "6 anos",
+    purpose: "Corrida e Reprodução",
+    image: "/images/cavalo-arabe.jfif",
+  },
 ];

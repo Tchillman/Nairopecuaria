@@ -12,7 +12,7 @@ export function Hero() {
         alt="Hero background"
         fill
         priority
-        className="object-cover transition duration-700 hover:scale-[1.02]"
+        className="object-cover bg-center transition duration-700 hover:scale-[1.02]"
         onError={(e) => {
           // Fallback se a imagem não carregar
           const target = e.target as HTMLImageElement;
