@@ -8,7 +8,7 @@ export function Footer() {
           href="#"
           className="font-serif text-2xl font-black tracking-wide">
           <Image
-            src="/img/logo-nairopecuaria.png"
+            src="/images/logo-nairopecuaria.png"
             alt=""
             width={100}
             height={100}

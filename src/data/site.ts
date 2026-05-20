@@ -37,7 +37,7 @@ export const products = [
     description:
       "Ovos frescos de galinhas poedeiras criadas de forma natural.",
     image:
-      "/images/ovos-frescos.jpeg",
+      "/images/ovo.jpeg",
   },
 
   {
