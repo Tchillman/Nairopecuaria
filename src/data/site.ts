@@ -8,19 +8,19 @@ export const services = [
     title: "Venda de animais",
     description:
       "Selecionamos bovinos, caprinos e ovinos com boa condicao corporal, historico de manejo e orientacao para transporte.",
-    image: "/img/gado.jpg",
+    image: "/img/gado.jpeg",
   },
   {
     title: "Consultoria pecuaria",
     description:
       "Apoiamos produtores na escolha de racas, alimentacao, organizacao do curral e melhoria da produtividade do rebanho.",
-    image: "/img/consultoria.jpg",
+    image: "/img/consultoria.jpeg",
   },
   {
     title: "Cuidado e manejo",
     description:
       "Acompanhamos rotinas de higiene, nutricao, pesagem, observacao sanitaria e preparacao dos animais para venda.",
-    image: "/img/veterinario.jpg",
+    image: "/img/veterinario.jpeg",
   },
 ];
 
@@ -38,7 +38,7 @@ export const products = [
     description:
       "Ovos frescos de galinhas poedeiras criadas de forma natural.",
     image:
-      "/img/ovos-frescos.jfif",
+      "/img/ovos-frescos.jpeg",
   },
 
   {
@@ -54,7 +54,7 @@ export const products = [
     description:
       "Tomate fresco colhido diretamente do campo, excelente qualidade.",
     image:
-      "/img/tomate.jfif", 
+      "/img/tomate.jpeg", 
   },
    {
     id: 2,
@@ -69,7 +69,7 @@ export const products = [
     description:
       "Cebola fresca colhida diretamente do campo, excelente qualidade.",
     image:
-      "/img/cebola-roxa.jfif",
+      "/img/cebola-roxa.jpeg",
   },
 
 ];
@@ -83,7 +83,7 @@ export const animals = [
     breed: "Dorper",
     age: "10 meses",
     purpose: "Corte e reproducao",
-    image: "/img/ovelhas-dorper.jfif",
+    image: "/img/ovelhas-dorper.jpeg",
   },
   {
     name: "Egg Queen",
@@ -93,7 +93,7 @@ export const animals = [
     breed: "ISA Brown",
     age: "8 meses",
     purpose: "Produção de Ovos",
-    image: "/images/isa-brown.jfif",
+    image: "/images/isa-brown.jpeg",
   },
   {
     name: "Carneiro Merino",
@@ -103,7 +103,7 @@ export const animals = [
     breed: "Merino",
     age: "20 meses",
     purpose: "Carneiro Reprodutor",
-    image: "/img/ovelha-merino.jfif",
+    image: "/img/ovelha-merino.jpeg",
   },
   {
     name: "Porco Landrace",
@@ -113,7 +113,7 @@ export const animals = [
     breed: "Landrace",
     age: " 10 meses",
     purpose: "Carne",
-    image: "/img/landrace.jfif",
+    image: "/img/landrace.jpeg",
   },
   {
     name: "Porco Large-White",
@@ -123,7 +123,7 @@ export const animals = [
     breed: "Saanen",
     age: "1 anos",
     purpose: "Carne",
-    image: "/img/large-white.jfif",
+    image: "/img/large-white.jpeg",
   },
   {
     name: "Porco Duroc",
@@ -133,7 +133,7 @@ export const animals = [
     breed: "Duroc",
     age: "2 anos",
     purpose: "Reprodutor",
-    image: "/img/duroc.jfif",
+    image: "/img/duroc.jpeg",
   },
   {
     name: " coelho Nova Zelândia",
@@ -143,7 +143,7 @@ export const animals = [
     breed: "Saanen",
     age: "1 ano",
     purpose: "Carne",
-    image: "/images/coelho-nova_zelandia.jfif",
+    image: "/images/coelho-nova_zelandia.jpeg",
   },
   {
     name: "Coelho Flemish",
@@ -153,7 +153,7 @@ export const animals = [
     breed: "Gigante Flemish",
     age: "1 anos",
     purpose: "Reprodução",
-    image: "/images/coelho-flemish.jfif",
+    image: "/images/coelho-flemish.jpeg",
   },
 
   {
@@ -164,7 +164,7 @@ export const animals = [
     breed: "Bonsmara",
     age: "4 anos",
     purpose: "Corte e Reprodução",
-    image: "/images/bonsmara.jfif",
+    image: "/images/bonsmara.jpeg",
   },
   {
    name: "Silver Feather",
@@ -174,7 +174,7 @@ export const animals = [
     breed: "Ross 308",
     age: "45 dias",
     purpose: "Frango de Corte",
-    image: "/images/ross.jfif",
+    image: "/images/ross.jpeg",
   },
   {
     name: "Golden Milk",
@@ -184,7 +184,7 @@ export const animals = [
     breed: "Holandesa",
     age: "5 anos",
     purpose: "Produção de Leite",
-    image: "/images/holandesa.jfif",
+    image: "/images/holandesa.jpeg",
   },
   {
     name: "Fast Runner",
@@ -194,6 +194,6 @@ export const animals = [
     breed: "Árabe",
     age: "6 anos",
     purpose: "Corrida e Reprodução",
-    image: "/images/cavalo-arabe.jfif",
+    image: "/images/cavalo-arabe.jpeg",
   },
 ];
