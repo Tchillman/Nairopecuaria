@@ -8,19 +8,19 @@ export const services = [
     title: "Venda de animais",
     description:
       "Selecionamos bovinos, caprinos e ovinos com boa condicao corporal, historico de manejo e orientacao para transporte.",
-    image: "/img/gado.jpeg",
+    image: "/imges/gado.jpeg",
   },
   {
     title: "Consultoria pecuaria",
     description:
       "Apoiamos produtores na escolha de racas, alimentacao, organizacao do curral e melhoria da produtividade do rebanho.",
-    image: "/img/consultoria.jpeg",
+    image: "/imges/consultoria.jpeg",
   },
   {
     title: "Cuidado e manejo",
     description:
       "Acompanhamos rotinas de higiene, nutricao, pesagem, observacao sanitaria e preparacao dos animais para venda.",
-    image: "/img/veterinario.jpeg",
+    image: "/imges/veterinario.jpeg",
   },
 ];
 
@@ -38,7 +38,7 @@ export const products = [
     description:
       "Ovos frescos de galinhas poedeiras criadas de forma natural.",
     image:
-      "/img/ovos-frescos.jpeg",
+      "/imges/ovos-frescos.jpeg",
   },
 
   {
@@ -54,7 +54,7 @@ export const products = [
     description:
       "Tomate fresco colhido diretamente do campo, excelente qualidade.",
     image:
-      "/img/tomate.jpeg", 
+      "/imges/tomate.jpeg", 
   },
    {
     id: 2,
@@ -69,7 +69,7 @@ export const products = [
     description:
       "Cebola fresca colhida diretamente do campo, excelente qualidade.",
     image:
-      "/img/cebola-roxa.jpeg",
+      "/imges/cebola-roxa.jpeg",
   },
 
 ];
@@ -83,7 +83,7 @@ export const animals = [
     breed: "Dorper",
     age: "10 meses",
     purpose: "Corte e reproducao",
-    image: "/img/ovelhas-dorper.jpeg",
+    image: "/imges/ovelhas-dorper.jpeg",
   },
   {
     name: "Egg Queen",
@@ -103,7 +103,7 @@ export const animals = [
     breed: "Merino",
     age: "20 meses",
     purpose: "Carneiro Reprodutor",
-    image: "/img/ovelha-merino.jpeg",
+    image: "/imges/ovelha-merino.jpeg",
   },
   {
     name: "Porco Landrace",
@@ -113,7 +113,7 @@ export const animals = [
     breed: "Landrace",
     age: " 10 meses",
     purpose: "Carne",
-    image: "/img/landrace.jpeg",
+    image: "/imges/landrace.jpeg",
   },
   {
     name: "Porco Large-White",
@@ -123,7 +123,7 @@ export const animals = [
     breed: "Saanen",
     age: "1 anos",
     purpose: "Carne",
-    image: "/img/large-white.jpeg",
+    image: "/imges/large-white.jpeg",
   },
   {
     name: "Porco Duroc",
@@ -133,7 +133,7 @@ export const animals = [
     breed: "Duroc",
     age: "2 anos",
     purpose: "Reprodutor",
-    image: "/img/duroc.jpeg",
+    image: "/imges/duroc.jpeg",
   },
   {
     name: " coelho Nova Zelândia",

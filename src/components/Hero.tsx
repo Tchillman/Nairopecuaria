@@ -8,7 +8,7 @@ export function Hero() {
     <section className="relative flex min-h-[92vh] items-end overflow-hidden bg-[#2b1a10] px-5 pb-14 pt-28 text-white sm:px-8 lg:pb-20">
           {/* Usando Image do Next.js */}
       <Image
-        src="/img/Hero1.jpg"
+        src="/imges/Hero1.jpg"
         alt="Hero background"
         fill
         priority
