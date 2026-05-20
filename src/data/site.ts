@@ -54,7 +54,7 @@ export const products = [
     description:
       "Tomate fresco colhido diretamente do campo, excelente qualidade.",
     image:
-      "/img/Tomate.jfif", 
+      "/img/tomate.jfif", 
   },
    {
     id: 2,
@@ -93,7 +93,7 @@ export const animals = [
     breed: "ISA Brown",
     age: "8 meses",
     purpose: "Produção de Ovos",
-    image: "/images/Isa-BROWN.jfif",
+    image: "/images/isa-brown.jfif",
   },
   {
     name: "Carneiro Merino",
@@ -133,7 +133,7 @@ export const animals = [
     breed: "Duroc",
     age: "2 anos",
     purpose: "Reprodutor",
-    image: "/img/Duroc.jfif",
+    image: "/img/duroc.jfif",
   },
   {
     name: " coelho Nova Zelândia",
@@ -164,7 +164,7 @@ export const animals = [
     breed: "Bonsmara",
     age: "4 anos",
     purpose: "Corte e Reprodução",
-    image: "/images/Bonsmara.jfif",
+    image: "/images/bonsmara.jfif",
   },
   {
    name: "Silver Feather",
@@ -174,7 +174,7 @@ export const animals = [
     breed: "Ross 308",
     age: "45 dias",
     purpose: "Frango de Corte",
-    image: "/images/Ross.jfif",
+    image: "/images/ross.jfif",
   },
   {
     name: "Golden Milk",
