@@ -76,13 +76,13 @@ export const products = [
 export const animals = [
   {
     name: "Cabrito Dorper",
-    category: "Caprino",
+    category: "ovino",
     price: "1M – 3M Kz",
     weight: "42 kg",
     breed: "Dorper",
     age: "10 meses",
     purpose: "Corte e reproducao",
-    image: "/images/ovelhas-dorper.jpegg",
+    image: "/images/ovelhas-dorper.jpeg",
   },
   {
     name: "Egg Queen",
@@ -136,7 +136,7 @@ export const animals = [
   },
   {
     name: " coelho Nova Zelândia",
-    category: "Caprino",
+    category: "leporídeo",
     price: "40.000 – 120.000 Kz",
     weight: "54 kg",
     breed: "Saanen",
@@ -146,7 +146,7 @@ export const animals = [
   },
   {
     name: "Coelho Flemish",
-    category: "Caprino",
+    category: "leparídeo",
     price: "100.000 – 300.000 Kz",
     weight: "54 kg",
     breed: "Gigante Flemish",
